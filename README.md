@@ -1,0 +1,1 @@
+[![LAUNCH ON OpenShift](https://launch-shifter.rhcloud.com/launch/LAUNCH ON.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=python-2.7&initial_git_url=https://github.com/phuslu/fechserver.git&initial_git_branch=python&name=1)
