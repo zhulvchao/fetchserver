@@ -129,7 +129,7 @@ func httpError(rw http.ResponseWriter, err string, code int) {
 	fmt.Fprintf(rw, "Content-Length: %d\r\n", len(err))
 	fmt.Fprintf(rw, "Content-Type: text/plain\r\n")
 	io.WriteString(rw, "\r\n")
-	io.WriteString(rw, err)
+	io.WriteString(rw, "go-fetchserver: "+err)
 }
 
 func handler(rw http.ResponseWriter, req *http.Request) {
